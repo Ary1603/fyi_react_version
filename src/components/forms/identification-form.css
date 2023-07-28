@@ -1,0 +1,34 @@
+.btn-submit-form {
+    margin: 0 40%;
+    width: 200px;
+}
+
+.label-form {
+    color: #35d4c7;
+    font-weight: 500;
+}
+
+h2 {
+    padding: 25px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 415px) and (max-width: 600px) {
+    .form-group {
+        min-width: 300px !important;
+    }
+
+    .btn-submit-form {
+        margin: 0 36%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .form-group {
+        min-width: 300px !important;
+    }
+
+    .btn-submit-form {
+        margin: 0 36%;
+    }
+}
